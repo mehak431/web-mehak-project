@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    background: linear-gradient(135deg, #ad7eff, #f875ff);
+    color: white;
+    padding: 2rem 1rem;
+}
+
+.profile-pic img {
+    border-radius: 50%;
+    border: 4px solid white;
+    width: 120px;
+    height: 120px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin: 0.5rem 0;
+}
+
+.tagline {
+    font-style: italic;
+    margin-bottom: 0;
+}
+
+nav {
+    background: #75caff;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    text-shadow: 0 0 5px white;
+}
+
+section {
+    padding: 2rem 1.5rem;
+    margin: 1.5rem auto;
+    background: white;
+    border-radius: 10px;
+    max-width: 800px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #75a3ff;
+    border-bottom: 2px solid #ff75e1;
+    padding-bottom: 0.5rem;
+    display: inline-block;
+    margin-bottom: 1rem;
+}
+
+.skill-bar {
+    margin: 1rem 0;
+}
+
+.skill-bar span {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.bar {
+    width: 100%;
+    background: #f0f0f0;
+    height: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.progress {
+    height: 100%;
+    border-radius: 5px;
+    transition: width 0.5s ease;
+}
+
+
+.progress.css { background: #3498db; width: 90%; }
+.progress.html { background: #e67e22; width: 95%; }
+.progress.js { background: #f1c40f; width: 50%; }
+.progress.ps { background: #2ecc71; width: 95%; }
+.progress.creativity { background: #9b59b6; width: 100%; }
+.progress.as { background: #f39c12; width: 90%; }
+
+/* Skills Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+    font-size: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 0.75rem 1rem;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+thead {
+    background: linear-gradient(135deg, #ff7eb3, #ff758c);
+    color: white;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tbody tr:hover {
+    background-color: #ffefef;
+}
+
+.stars {
+    color: #f39c12;
+    font-size: 1.2rem;
+    letter-spacing: 0.1rem;
+}
+
+td:last-child {
+    color: #3498db;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: hwb(0 0% 96%);
+    color: white;
+    font-size: 0.9rem;
+}
+
